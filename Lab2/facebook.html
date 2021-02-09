@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                background-color:#F4F6F9;
+            }
+            body a{
+                text-decoration: none;
+            }
+            .logo{
+                padding-top: 175px;
+                padding-left: 105px;
+            }
+            .phrase{
+                padding-left: 130px;
+                width: 400px;
+                font-family: 'Courier New', Courier, monospace;
+                color:dimgrey;
+            }
+            .box{
+                background-color: white;
+                height: 340px;
+                width: 400px;
+                position: absolute;
+                bottom:130px;
+                left:650px;
+                border: 5px black;
+                border-radius: 10px;
+                padding-top: 20px;
+                padding-left: 20px;
+            
+            }
+            #email{
+                width: 359px;
+                height: 44px;
+                font-size: 17px;
+                margin-top: 15px;
+                margin-left: 15px;
+                border-radius: 6px;
+                border-style: solid;
+                border-color:lightgrey;
+            }
+            #pass{
+                width: 359px;
+                height: 44px;
+                font-size: 17px;
+                margin-top: 15px;
+                margin-left: 15px;
+                border-radius: 6px;
+                border-style: solid;
+                border-color:lightgrey;
+            }
+            #button{
+                background-color: #1877f2;
+                border-radius: 6px;
+                color: white;
+                width: 359px;
+                height: 44px;
+                font-size: 20px;
+                margin-top: 15px;
+                margin-left: 15px;
+                border-color: #1877f2;
+                border-style: solid;
+            }
+            #link{
+                color: #1877f2;
+                position: absolute;
+                left:160px;
+                top: 215px;
+            }
+            #newAcc{
+                background-color:#42b72a;
+                border-color:#42b72a;
+                border-style: solid;
+                color: white;
+                border-radius: 6px;
+                font-size: 17px;
+                width: 180px;
+                height: 44px;
+                margin-top: 0px;
+                margin-left: 105px;
+            }
+            #page{
+                position: absolute;
+                top: 500px;
+                left: 700px;
+            }
+            .box p{
+                color:lightgrey;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+            .footer{
+                width: 1000px;
+                margin-left: 60px;
+                margin-top: 220px;
+                text-align:left;
+            }
+
+            .footer-lang{
+                width: 980px;
+                margin-left: 15px;
+                border-bottom: 1px solid #bbb8b898;
+                height: 40px;
+                line-height: 45px;
+                font-size: 12px;
+                color:#848484;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .footer-lang a{
+                color:#848484;
+                display: inline;
+                margin-left: 10px;
+                text-decoration: none;
+            }
+
+            .footer-lang a:hover{
+                text-decoration: underline;
+            }
+
+            .footer-info{
+                width: 1000px;
+                margin: 10px auto auto 10px;
+                font-size: 12px;
+                color:#848484;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .footer-info a{
+                color:#848484;
+                display: inline-block;
+                margin: 6px 6px 0px 6px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+            }
+
+            .footer-info a:hover{
+                text-decoration: underline;
+            }
+            .footer-info p{
+                margin-top: 18px;
+                margin-left: 5px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div class = "logo">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" 
+            alt="facebook logo"
+            width="300px">
+        </div>
+
+        <div class = "phrase">
+            <h2>
+                Connect with friends and the world around you on Facebook.
+            </h2>
+        </div>
+
+        <div class = "box">
+            <input type="text" placeholder="Email or Phone Number" id = "email">
+            <input type="password" placeholder="Password" id = "pass">
+            <button id = "button"> Log In </button>
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" id = "link">Forgot Password?</a>
+            <p>_____________________________________________</p>
+            <button id = "newAcc"> Create New Account </button>
+        </div>
+        <p id = "page"><strong><a href = "https://www.facebook.com/pages/create/?ref_type=registration_form" style="color: black;">Create a Page</a></strong> for a celebrity, band or business.</p>
+
+        <footer>
+            <div class="footer"> 
+                <div class="footer-lang">
+                    <a href = "https://www.facebook.com/"> English (UK) </a> 
+                    <a href="https://ru-ru.facebook.com/">  Русский  </a><a href="https://tr-tr.facebook.com/">  Türkçe  </a><a href="https://id-id.facebook.com/">  Bahasa Indonesia  </a>
+                    <a href="https://zh-cn.facebook.com/">  中文(简体)  </a><a href="https://kk-kz.facebook.com/">  Қазақша  </a><a href="https://de-de.facebook.com/">  Deutsch  </a><a href="https://ko-kr.facebook.com/">  한국어  </a>
+                    <a href="https://sq-al.facebook.com/">  Shqip  </a><a href="https://es-la.facebook.com/">  Español  </a><a href="https://pt-br.facebook.com/">  Português (Brasil)  </a>
+                </div>
+                <div  class="footer-info">
+                    <a href="https://www.facebook.com/r.php">Sign Up</a>
+                    <a href="https://www.facebook.com/login/">Log In</a>
+                    <a href="https://www.messenger.com/">Messenger</a>
+                    <a href="https://www.facebook.com/lite/">Facebook Lite</a>
+                    <a href="https://www.facebook.com/watch/">Watch</a>
+                    <a href="https://www.facebook.com/directory/people/">People</a>
+                    <a href="https://www.facebook.com/directory/pages/">Pages</a>
+                    <a href="https://www.facebook.com/pages/category/">Page categories</a>
+                    <a href="https://www.facebook.com/places/">Places</a>
+                    <a href="https://www.facebook.com/games/">Games</a>
+                    <a href="https://www.facebook.com/directory/places/">Locations</a>
+                    <a href="https://www.facebook.com/marketplace/">Marketplace</a>
+                    <a href="https://pay.facebook.com/">Facebook Pay</a>
+                    <a href="https://www.facebook.com/directory/groups/">Groups</a>
+                    <a href="https://www.facebook.com/jobs/">Jobs</a>
+                    <a href="https://www.oculus.com/">Oculus</a>
+                    <a href="https://portal.facebook.com/">Portal</a>
+                    <a href="https://www.instagram.com/">Instagram</a>
+                    <a href="https://www.facebook.com/local/lists/245019872666104/">Local</a>
+                    <a href="https://www.facebook.com/fundraisers/">Fundraisers</a>
+                    <a href="https://www.facebook.com/biz/directory/">Services</a>
+                    <a href="https://www.facebook.com/votinginformationcenter/">Voting Information Centre</a>
+                    <a href="https://www.facebook.com/facebook">About</a>
+                    <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Fads%2Fcreate%2F%3Fcampaign_id%3D402047449186%26placement%3Dpflo%26extra_1%3Dnot-admgr-user">Create ad</a>
+                    <a href="https://www.facebook.com/pages/create/?ref_type=site_footer">Create Page</a>
+                    <a href="https://developers.facebook.com/?ref=pf">Developers</a>
+                    <a href="https://www.facebook.com/careers/?ref=pf">Careers</a>
+                    <a href="https://www.facebook.com/privacy/explanation">Privacy</a>
+                    <a href="https://www.facebook.com/policies/cookies/">Cookies</a>
+                    <a href="https://www.facebook.com/help/568137493302217">AdChoices></a>
+                    <a href="https://www.facebook.com/policies?ref=pf">Terms</a>
+                    <a href="https://www.facebook.com/help/?ref=pf">Help</a>
+                    <p>Facebook © 2021</a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
